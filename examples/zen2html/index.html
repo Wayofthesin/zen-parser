@@ -1,0 +1,51 @@
+<!--
+	@Developed by WaY 2014.
+	Copyright (c) 2014 WaY
+
+Presentation of zen Parser by WaY 2014
+  This example creates converter from zen element structure to HTML code
+All of this could be done by zen.toHTML() function or toHTML zen element method.
+This example is supposed to show how to move across the zen elements and use their
+structure.
+
+  All magic happens in scripts/main.js file.
+  
+  Don't be afraid of checking out the zen_parser.js file for updated functions.
+They will be commented as well.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<!-- this example page doesn't need indexing meta tags-->
+
+	<title>zen2html - zen parser example</title>
+	
+	<!-- Load styles in here -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="button.css">
+	
+	
+	<!-- Load all external scripts -->
+	<script type="text/javascript" src="../../lib/zen_parser.js"></script>
+	<script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+	
+	<!-- Load all current page scripts -->
+</head>
+<body>
+	<div id="header">
+		<div id="header_title">Zen Parser Example</div>
+		<div id="header_subtitle">Zen syntax to html converter</div>
+	</div>
+	<div id="content">
+		<textarea name="zen_input" id="zen_input">Zen syntax input</textarea>
+		<div class="button" id="convert_button">Convert</div>
+		<textarea name="html_output" id="html_output">HTML output</textarea>
+	</div>
+	<div id="footer">Way 2014®</div>
+	
+	<!-- Execute main.js as soon as the DOM is loaded -->
+	<script type="text/javascript" src="scripts/main.js"></script>
+	
+</body>
+</html>
