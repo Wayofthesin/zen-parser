@@ -22,6 +22,9 @@ $convertButton.on("click", function(){
 			}
 		*/
 		
+		$("body").append( result.toDOM() );
+		
+		result = result.elems; //Refuse object leaving the array of elements
 		$outputBox.val( build_html_code(result) /*It does exactly the same what zen.toHTML( $inputBox.val() )*/ );
 	}
 	catch( e ) {
