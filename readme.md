@@ -1,4 +1,30 @@
 zen-parser
 ==========
 
-Zen syntax parser for javascript
+Zen notation
+-------------
+
+
+
+Zen Syntax
+-----------
+
+
+
+Public functions
+-----------------
+
+
+
+Objects
+--------
+
+
+
+Using the data
+---------------
+
+
+
+Error Handling
+---------------
