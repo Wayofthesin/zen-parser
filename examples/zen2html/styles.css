@@ -51,6 +51,7 @@ textarea {
 	height:		31vh;	/* +4vh for margin */
 	
 	margin:		2vh auto;
+	overflow-y:	scroll;
 }
 #convert_button {
 	width: 		9vw; /* +1vw from padding*/

@@ -31,6 +31,8 @@
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #1570cd;
+	
+	cursor: pointer;
 }
 .button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
