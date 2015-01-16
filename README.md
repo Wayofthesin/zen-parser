@@ -137,7 +137,7 @@ This function returns with DocumentFragment containing HTML elements prepared to
 
 We can modify zen_parser behaviour trough the zen.options object. For now we have only one option:
 
-	**options.multiply_by_reference**
+	options.multiply_by_reference
     Default value: false
 
 If this flag is set to true all multiplied elements will be single object instance referenced multiple times. Otherwise zen_parser will create instance for each multiplied object. **Note** that multiply referenced objects are in fact the same object so they cannot be enumerated. In other words "%" operator will be disabled for them.
