@@ -88,7 +88,7 @@ Note that groups children will be in fact children of the each topmost element o
 ### Manipulators
 
   - **{}** - element text
-  - *****  - element multiplier
+  - *  - element multiplier
     - **%**  - counter of multiplied elements
 
 For example
